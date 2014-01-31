@@ -28,4 +28,4 @@ Triggered after `Pushr.navigateUsingPushState()`'s AJAX request is complete. Cal
 Triggered after the page is updated with the new content.
 
 ## Don't fancy Coffeescript?
-You can get the plain Javascript version by visiting `http://localhost:9292/assets/application.js` after you `rackup` the server. You might need to scroll down a little bit. 
+You can get the plain Javascript version by visiting `http://localhost:9292/assets/application.js` after you `rackup` the server. You might need to scroll down a little bit.

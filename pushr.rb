@@ -2,6 +2,7 @@ class Pushr < Sinatra::Base
   configure do
     set :server, :thin
     set :environment, :development
+    set :views, Proc.new { File.join(root, "templates") }
   end
 
   get "/" do
