@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pushr</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="http://necolas.github.com/normalize.css/3.0.0/normalize.css" rel="stylesheet">
+  <link href="/assets/application.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <ul class="navigation">
+      <li><a href="/" class="js-nav">Home</a></li>
+      <li><a href="/loyalty" class="js-nav">Loyalty</a></li>
+      <!-- li><a href="/marketing" class="js-nav">Marketing</a></li>
+      <li><a href="/contacts" class="js-nav">Contacts</a></li -->
+    </ul>
+  </header>
+
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+  <script src="/assets/application.js"></script>
+</body>
+</html>
