@@ -15,7 +15,7 @@ Pushr is a proof of concept application demonstrating the usage of the History A
 2. Go to `http://localhost:9292`.
 
 
-## Custom Events
+## Custom Events ([source code](https://github.com/adammiribyan/pushr/blob/master/assets/javascripts/navigation.js.coffee))
 
 ### uiNavigate
 
